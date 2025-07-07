@@ -1,0 +1,106 @@
+/* Login.css */
+
+.login-container {
+  min-height: 100vh;
+  background: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.top-half-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 45%;
+  background: linear-gradient(135deg, #0284c7, #3b82f6);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  z-index: 0;
+}
+
+.login-content {
+  background: white;
+  width: 100%;
+  max-width: 360px;
+  z-index: 1;
+  text-align: center;
+  padding: 32px 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bank-logo {
+  height: 72px;
+  margin-bottom: 12px;
+}
+
+.bank-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #0284c7;
+  margin-bottom: 24px;
+}
+
+.input-group {
+  margin-bottom: 16px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+  background: #f9f9f9;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #0284c7;
+  box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.2);
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 8px;
+  background: #0284c7;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #0369a1;
+}
+
+.register-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  background: white;
+  color: #0284c7;
+  font-weight: 600;
+  border: 2px solid #0284c7;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-btn:hover {
+  background: #e0f2fe;
+}
+
+.register-text {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 12px;
+}
